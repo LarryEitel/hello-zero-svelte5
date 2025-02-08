@@ -1,38 +1,12 @@
-# sv
+# zero-hello-svelte5
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a Svelte local-first app that uses:
 
-## Creating a project
+- [Zero](https://zero.rocicorp.dev/docs/introduction)
+- [@stolinski/zero-svelte](https://github.com/stolinski/zero-svelte)
 
-If you're seeing this, you've probably already done this step. Congrats!
+It is a port of the React version of [hello-zero](https://github.com/rocicorp/hello-zero)
 
-```bash
-# create a new project in the current directory
-npx sv create
+This is a work in progress. I am looking for contributors to help get this project working.
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Once the project is working, Svelte developers interested in how to use Zero with Svelte can use this project as a starting point.
